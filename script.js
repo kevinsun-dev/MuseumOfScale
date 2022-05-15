@@ -1,7 +1,7 @@
 window.onload = function () {
     setTimeout(function () {
         document.getElementById("loader").remove();
-    }, 1000);
+    }, 2000);
 
     const svg = d3.select("svg#mainCanvas");
     const width = svg.node().getBoundingClientRect().width;
